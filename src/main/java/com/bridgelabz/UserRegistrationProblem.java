@@ -46,11 +46,11 @@ public class UserRegistrationProblem {
     public static void main(String[] args) {
         UserRegistrationProblem userRegistrationProblem = new UserRegistrationProblem();
 
+        System.out.println("Validating User Entries");
         System.out.println(userRegistrationProblem.validFirstName("Kiran"));
         System.out.println(userRegistrationProblem.validLastName("Kumar"));
         System.out.println(userRegistrationProblem.validEmail("kiranmcehsn@gmail.com"));
         System.out.println(userRegistrationProblem.validPhoneNumber("91-9535368200"));
         System.out.println(userRegistrationProblem.validPassword("Kiran@123"));
-
     }
 }
